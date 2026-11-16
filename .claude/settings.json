@@ -1,0 +1,54 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(yt-dlp *)",
+      "Bash(whisper *)",
+      "Bash(ffmpeg *)",
+      "WebSearch",
+      "WebFetch",
+      "Edit(entrevistas/**)"
+    ]
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "shell": "bash",
+            "command": "m=''; for t in yt-dlp ffmpeg whisper; do command -v \"$t\" >/dev/null 2>&1 || m=\"$m $t\"; done; if [ -n \"$m\" ]; then echo \"Herramientas no instaladas:$m. Solo hacen falta para YouTube/audio; ver CLAUDE.md.\"; fi; exit 0",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Write",
+        "hooks": [
+          {
+            "type": "prompt",
+            "if": "Write(**/hallazgos.json)",
+            "continueOnBlock": true,
+            "statusMessage": "Revisando calidad de los hallazgos...",
+            "timeout": 60,
+            "prompt": "Eres revisor editorial de un análisis de una entrevista política. Este es el evento de escritura de un archivo (JSON del hook): $ARGUMENTS\n\nSi el archivo escrito NO se llama hallazgos.json, responde ok=true sin más.\n\nSi lo es, revisa el contenido (tool_input.content si es Write, o el cambio new_string si es Edit) y comprueba:\n1. Cada elemento de 'hallazgos' tiene 'cita' no vacía y 'tiempo' no vacío.\n2. Todo hallazgo de categoría falsedad o error_factual tiene al menos una fuente con url.\n3. Toda afirmación con veredicto distinto de no_verificable tiene al menos una fuente con url.\n4. No se usa 'mentira' ni 'miente' en etiquetas o explicaciones salvo que la explicación cite pruebas documentadas de que el político conocía la falsedad.\n5. El lenguaje es neutral: sin calificativos sobre la persona (mentiroso, manipulador, demagogo, etc.).\n6. No se tratan opiniones o juicios de valor como afirmaciones falsas.\n\nSi todo se cumple, responde ok=true. Si algo falla, responde ok=false y en reason enumera cada problema con el id del hallazgo o afirmación y qué corregir, pidiendo que se corrija y se vuelva a escribir hallazgos.json."
+          }
+        ]
+      },
+      {
+        "matcher": "Edit",
+        "hooks": [
+          {
+            "type": "prompt",
+            "if": "Edit(**/hallazgos.json)",
+            "continueOnBlock": true,
+            "statusMessage": "Revisando calidad de los hallazgos...",
+            "timeout": 60,
+            "prompt": "Eres revisor editorial de un análisis de una entrevista política. Este es el evento de escritura de un archivo (JSON del hook): $ARGUMENTS\n\nSi el archivo escrito NO se llama hallazgos.json, responde ok=true sin más.\n\nSi lo es, revisa el contenido (tool_input.content si es Write, o el cambio new_string si es Edit) y comprueba:\n1. Cada elemento de 'hallazgos' tiene 'cita' no vacía y 'tiempo' no vacío.\n2. Todo hallazgo de categoría falsedad o error_factual tiene al menos una fuente con url.\n3. Toda afirmación con veredicto distinto de no_verificable tiene al menos una fuente con url.\n4. No se usa 'mentira' ni 'miente' en etiquetas o explicaciones salvo que la explicación cite pruebas documentadas de que el político conocía la falsedad.\n5. El lenguaje es neutral: sin calificativos sobre la persona (mentiroso, manipulador, demagogo, etc.).\n6. No se tratan opiniones o juicios de valor como afirmaciones falsas.\n\nSi todo se cumple, responde ok=true. Si algo falla, responde ok=false y en reason enumera cada problema con el id del hallazgo o afirmación y qué corregir, pidiendo que se corrija y se vuelva a escribir hallazgos.json."
+          }
+        ]
+      }
+    ]
+  }
+}

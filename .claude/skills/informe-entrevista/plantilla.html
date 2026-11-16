@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO}} · Análisis</title>
+<style>
+:root{
+  --bg:#fbfaf8;--surface:#ffffff;--ink:#1d1d1f;--muted:#5f6368;--line:#e3e1dc;
+  --falsedad:#c62828;--falsedad-bg:#fde7e7;
+  --error:#b26a00;--error-bg:#fff1d6;
+  --incoherencia:#6a3fb5;--incoherencia-bg:#efe7fb;
+  --evasiva:#00639b;--evasiva-bg:#e1f0fa;
+  --desvio:#2e7d32;--desvio-bg:#e4f3e5;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#141416;--surface:#1d1d21;--ink:#ececec;--muted:#a0a3a8;--line:#33343a;
+  --falsedad:#ff8a80;--falsedad-bg:#3d1c1c;--error:#ffc266;--error-bg:#3a2d12;
+  --incoherencia:#c5a8ff;--incoherencia-bg:#2c2240;--evasiva:#7cc4f0;--evasiva-bg:#13293a;
+  --desvio:#8fd694;--desvio-bg:#1a3020;}}
+:root[data-theme="dark"]{
+  --bg:#141416;--surface:#1d1d21;--ink:#ececec;--muted:#a0a3a8;--line:#33343a;
+  --falsedad:#ff8a80;--falsedad-bg:#3d1c1c;--error:#ffc266;--error-bg:#3a2d12;
+  --incoherencia:#c5a8ff;--incoherencia-bg:#2c2240;--evasiva:#7cc4f0;--evasiva-bg:#13293a;
+  --desvio:#8fd694;--desvio-bg:#1a3020;}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:920px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7rem;line-height:1.25;margin:0 0 4px}
+h2{font-size:1.15rem;margin:40px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+.meta{color:var(--muted);font-size:.92rem;margin:0}
+.meta a{color:inherit}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px;margin-top:20px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px}
+.stat b{display:block;font-size:1.6rem;line-height:1.1;font-variant-numeric:tabular-nums}
+.stat span{font-size:.82rem;color:var(--muted)}
+.stat.falsedad b{color:var(--falsedad)}.stat.error_factual b{color:var(--error)}
+.stat.incoherencia b{color:var(--incoherencia)}.stat.evasiva b{color:var(--evasiva)}.stat.desvio b{color:var(--desvio)}
+.valoracion{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-top:14px}
+.leyenda{display:flex;flex-wrap:wrap;gap:8px 14px;font-size:.85rem;color:var(--muted);margin-bottom:12px}
+.leyenda i{display:inline-block;width:.8em;height:.8em;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.hallazgo{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--c);border-radius:8px;padding:12px 14px;margin:10px 0}
+.hallazgo header{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline;font-size:.85rem;color:var(--muted)}
+.hallazgo header strong{color:var(--c);font-size:.95rem}
+.hallazgo blockquote{margin:8px 0;padding-left:10px;border-left:2px solid var(--line);font-style:italic}
+.hallazgo p{margin:6px 0}
+.hallazgo .fuentes{font-size:.85rem}
+.c-falsedad{--c:var(--falsedad)}.c-error_factual{--c:var(--error)}.c-incoherencia{--c:var(--incoherencia)}.c-evasiva{--c:var(--evasiva)}.c-desvio{--c:var(--desvio)}
+.turno{margin:0 0 12px}
+.turno time{color:var(--muted);font-size:.8rem;font-variant-numeric:tabular-nums;margin-right:6px}
+.turno time a{color:inherit}
+mark{position:relative;border-radius:3px;padding:0 2px;color:inherit;cursor:help;border-bottom:2px solid}
+mark.cat-falsedad{background:var(--falsedad-bg);border-color:var(--falsedad)}
+mark.cat-error_factual{background:var(--error-bg);border-color:var(--error)}
+mark.cat-incoherencia{background:var(--incoherencia-bg);border-color:var(--incoherencia)}
+mark.cat-evasiva{background:var(--evasiva-bg);border-color:var(--evasiva)}
+mark.cat-desvio{background:var(--desvio-bg);border-color:var(--desvio)}
+mark .nota{display:none;position:absolute;left:0;top:calc(100% + 6px);z-index:5;width:min(340px,80vw);background:var(--surface);
+  border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:.85rem;line-height:1.45;box-shadow:0 6px 20px rgba(0,0,0,.15)}
+mark:hover .nota,mark:focus .nota{display:block}
+.tabla{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--line)}
+th{color:var(--muted);font-weight:600}
+.v{white-space:nowrap;font-weight:600}
+.v-falso{color:var(--falsedad)}.v-enganoso{color:var(--error)}.v-verdadero,.v-mayormente_verdadero{color:var(--desvio)}.v-no_verificable{color:var(--muted)}
+.r-completa{color:var(--desvio)}.r-parcial{color:var(--error)}.r-ninguna{color:var(--falsedad)}
+footer,.metodologia{color:var(--muted);font-size:.88rem}
+</style>
+</head>
+<body>
+<main>
+  <h1>{{TITULO}}</h1>
+  <!-- Político · cargo/partido · entrevistador · medio · fecha · enlace a la fuente · calidad de transcripción -->
+  <p class="meta">{{METADATOS}}</p>
+
+  <h2>Resumen</h2>
+  <div class="stats">
+    <!-- Un .stat por categoría con su recuento + el índice como porcentaje. Ejemplo:
+    <div class="stat falsedad"><b>2</b><span>Afirmaciones falsas/engañosas</span></div> -->
+    {{STATS}}
+    <div class="stat"><b>{{INDICE}}</b><span>Respuestas claras</span></div>
+  </div>
+  <div class="valoracion">{{VALORACION}}</div>
+
+  <h2>Hallazgos</h2>
+  <!-- Un <article class="hallazgo c-CATEGORIA"> por hallazgo, ordenados por severidad (alta primero) y luego por tiempo:
+  <article class="hallazgo c-falsedad"><header><strong>Afirmación falsa</strong><span>[00:03:40]</span><span>Severidad alta</span><span>Confianza media</span></header>
+  <blockquote>cita</blockquote><p>explicación</p><p class="fuentes">Fuentes: <a href="URL">título (fecha)</a></p></article>
+  Enlaza el tiempo a #H<n> de la transcripción. -->
+  {{HALLAZGOS}}
+
+  <h2>Preguntas y respuestas</h2>
+  <div class="tabla"><table>
+    <thead><tr><th>Tiempo</th><th>Pregunta</th><th>Respuesta</th><th>Comentario</th></tr></thead>
+    <!-- Respuesta con <span class="r-completa|r-parcial|r-ninguna">Completa|Parcial|Sin respuesta</span> -->
+    <tbody>{{PREGUNTAS}}</tbody>
+  </table></div>
+
+  <h2>Verificación de afirmaciones</h2>
+  <div class="tabla"><table>
+    <thead><tr><th>Tiempo</th><th>Afirmación</th><th>Veredicto</th><th>Explicación y fuentes</th></tr></thead>
+    <!-- Veredicto con <span class="v v-VEREDICTO">Falso|Engañoso|Verdadero|Mayormente verdadero|No verificable</span> -->
+    <tbody>{{AFIRMACIONES}}</tbody>
+  </table></div>
+
+  <h2>Transcripción anotada</h2>
+  <div class="leyenda">
+    <span><i style="background:var(--falsedad)"></i>Falsedad</span><span><i style="background:var(--error)"></i>Error factual</span>
+    <span><i style="background:var(--incoherencia)"></i>Incoherencia</span><span><i style="background:var(--evasiva)"></i>Evasiva</span>
+    <span><i style="background:var(--desvio)"></i>Desvío de atención</span>
+  </div>
+  <!-- <p class="turno"><time><a href="...&t=72s">00:01:12</a></time><b>Hablante:</b> texto con <mark>…</mark></p> -->
+  {{TRANSCRIPCION}}
+
+  <h2>Metodología y limitaciones</h2>
+  <div class="metodologia">
+    <p>Análisis asistido por IA (Claude) sobre la transcripción. Las afirmaciones se contrastan con fuentes públicas disponibles en la fecha de la entrevista. «Falso» describe la afirmación, no la intención: solo se habla de mentira cuando consta documentalmente que se conocía la falsedad. Las opiniones no se verifican. Es un análisis orientativo y conviene revisar las fuentes enlazadas.</p>
+    <!-- <ul> con las limitaciones de hallazgos.json -->
+    {{LIMITACIONES}}
+  </div>
+  <footer><p>Generado el {{FECHA_GENERACION}}.</p></footer>
+</main>
+</body>
+</html>
