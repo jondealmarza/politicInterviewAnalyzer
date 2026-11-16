@@ -1,0 +1,1299 @@
+{
+  "metadatos": {
+    "titulo": "The Wild Project #393 - Pedro Sánchez | Ábalos y Koldo, Ceuta y Marruecos, Su famosa hemeroteca",
+    "politico": "Pedro Sánchez",
+    "partido_cargo": "PSOE · presidente del Gobierno y candidato a las elecciones generales del 29-N",
+    "entrevistador": "Jordi Wild",
+    "medio": "The Wild Project (YouTube)",
+    "fecha_entrevista": "2026-11-13",
+    "fuente": "https://www.youtube.com/watch?v=mStOFBvToUI",
+    "duracion": "01:52:07",
+    "calidad_transcripcion": "subtitulos_automaticos"
+  },
+  "preguntas": [
+    {
+      "id": "P1",
+      "tiempo": "00:03:50",
+      "pregunta": "¿Por qué no da un paso al lado tras años de presión?",
+      "respuesta": "completa",
+      "comentario": "Responde que es vocación de servicio y explica su motivación."
+    },
+    {
+      "id": "P2",
+      "tiempo": "00:07:57",
+      "pregunta": "¿Qué siente ante los cánticos insultantes convertidos en meme?",
+      "respuesta": "completa",
+      "comentario": "Describe el efecto en su familia y su lectura política del insulto."
+    },
+    {
+      "id": "P3",
+      "contraste_id": "T1",
+      "tiempo": "00:10:02",
+      "pregunta": "La crispación es bidireccional: ¿por qué no frenó a un ministro con perfil de confrontación?",
+      "respuesta": "parcial",
+      "comentario": "Defiende que la polarización es asimétrica; no aborda la parte sobre su ministro."
+    },
+    {
+      "id": "P4",
+      "tiempo": "00:14:35",
+      "pregunta": "¿Por qué no hubo dimisión o cese tras el accidente de Adamuz pese a avisos sindicales?",
+      "respuesta": "parcial",
+      "comentario": "Responde con la inversión ferroviaria; no explica la ausencia de responsabilidades."
+    },
+    {
+      "id": "P5",
+      "contraste_id": "T6",
+      "tiempo": "00:15:56",
+      "pregunta": "¿Está el tren mejor que hace 8 años?",
+      "respuesta": "completa",
+      "comentario": "Dice que sí, y reconoce averías y retrasos."
+    },
+    {
+      "id": "P6",
+      "tiempo": "00:19:18",
+      "pregunta": "¿Por qué no hubo un responsable claro tras el primer accidente?",
+      "respuesta": "parcial",
+      "comentario": "Remite a las investigaciones abiertas sin pronunciarse sobre responsabilidades políticas."
+    },
+    {
+      "id": "P7",
+      "tiempo": "00:22:00",
+      "pregunta": "¿Cree que no hicieron nada mal para evitar el segundo accidente?",
+      "respuesta": "completa",
+      "comentario": "Reconoce fallos en el control de mandos y en la formación."
+    },
+    {
+      "id": "P8",
+      "tiempo": "00:26:47",
+      "pregunta": "¿Se equivocó el PSOE al no pedir la dimisión de Ana Pastor tras Angrois?",
+      "respuesta": "ninguna",
+      "comentario": "Deja la valoración «a ti y a los oyentes»."
+    },
+    {
+      "id": "P9",
+      "tiempo": "00:27:08",
+      "pregunta": "Si Óscar Puente no hubiera dimitido, ¿lo habría cesado?",
+      "respuesta": "ninguna",
+      "comentario": "Repreguntado dos veces; responde que «ese debate está superado» y que la decisión fue de Puente."
+    },
+    {
+      "id": "P10",
+      "tiempo": "00:30:34",
+      "pregunta": "¿Qué sabía el Gobierno antes de la entrada masiva en Ceuta?",
+      "respuesta": "completa",
+      "comentario": "Explica que se detectaba un pico de llegadas, pero no de esa magnitud."
+    },
+    {
+      "id": "P11",
+      "tiempo": "00:34:01",
+      "pregunta": "Si el CNI no lo previó, ¿por qué no ha habido consecuencias en el CNI?",
+      "respuesta": "parcial",
+      "comentario": "Responde que no recibieron avisos, sin abordar las consecuencias."
+    },
+    {
+      "id": "P12",
+      "tiempo": "00:36:04",
+      "pregunta": "¿Considera hoy a Marruecos responsable de la crisis?",
+      "respuesta": "completa",
+      "comentario": "Responde que no tiene información para acusar a un Gobierno."
+    },
+    {
+      "id": "P13",
+      "tiempo": "00:41:13",
+      "pregunta": "¿Existe pleitesía del Gobierno español hacia Marruecos?",
+      "respuesta": "parcial",
+      "comentario": "Desvía hacia el hackeo de su móvil, que el entrevistador no había mencionado."
+    },
+    {
+      "id": "P14",
+      "tiempo": "00:42:57",
+      "pregunta": "¿Están contentos los ceutíes? ¿Se gestionó bien la crisis?",
+      "respuesta": "completa",
+      "comentario": "Admite que «no se gestionó bien» en el momento de la crisis."
+    },
+    {
+      "id": "P15",
+      "tiempo": "00:44:40",
+      "pregunta": "¿Por qué se fue de vacaciones durante la crisis de Ceuta?",
+      "respuesta": "parcial",
+      "comentario": "Niega haberse ido de vacaciones y luego admite que estaba con su familia en otra residencia oficial."
+    },
+    {
+      "id": "P16",
+      "tiempo": "00:48:03",
+      "pregunta": "¿Por qué tardó unos 25 días en convocar el Consejo de Seguridad Nacional?",
+      "respuesta": "completa",
+      "comentario": "Responde que no era necesario porque los mecanismos estaban activados."
+    },
+    {
+      "id": "P17",
+      "contraste_id": "T3",
+      "tiempo": "00:52:08",
+      "pregunta": "¿Por qué preocupa tanto la inmigración a los españoles?",
+      "respuesta": "completa",
+      "comentario": "Lo atribuye al desafío de la integración."
+    },
+    {
+      "id": "P18",
+      "contraste_id": "T4",
+      "tiempo": "01:00:46",
+      "pregunta": "¿Le alarma la proyección de que en 50 años un 40% de residentes haya nacido fuera?",
+      "respuesta": "parcial",
+      "comentario": "Responde con otra pregunta (¿sociedad próspera o decadente?) sin decir si le preocupa."
+    },
+    {
+      "id": "P19",
+      "tiempo": "01:08:14",
+      "pregunta": "¿Eran Ábalos y Cerdán amigos suyos?",
+      "respuesta": "completa",
+      "comentario": "Reconoce que lo eran o creía que lo eran."
+    },
+    {
+      "id": "P20",
+      "tiempo": "01:10:57",
+      "pregunta": "¿No escuchó comentarios machistas en los viajes en coche?",
+      "respuesta": "completa",
+      "comentario": "Niega haberlos escuchado y dice que apenas trataba a Koldo."
+    },
+    {
+      "id": "P21",
+      "tiempo": "01:11:39",
+      "pregunta": "¿No se enteraba de lo que pasaba o miraba hacia otro lado?",
+      "respuesta": "completa",
+      "comentario": "Descarta lo segundo y explica la salida de Ábalos en 2021."
+    },
+    {
+      "id": "P22",
+      "tiempo": "01:17:51",
+      "pregunta": "Que dos secretarios de Organización elegidos por usted tengan este problema, ¿qué dice de su criterio?",
+      "respuesta": "parcial",
+      "comentario": "Pide «ampliar el foco» al resto de ministros."
+    },
+    {
+      "id": "P23",
+      "tiempo": "01:19:55",
+      "pregunta": "¿Qué sabe de los 43.225 € que la UCO atribuye al PSOE en pagos a Leire Díez?",
+      "respuesta": "parcial",
+      "comentario": "Dice que contrataron despachos de abogados y que desconocían que estos contrataran a Díez."
+    },
+    {
+      "id": "P24",
+      "tiempo": "01:20:37",
+      "pregunta": "¿Está tranquilo con este caso? ¿Se querellará?",
+      "respuesta": "completa",
+      "comentario": "El partido no descarta acciones judiciales."
+    },
+    {
+      "id": "P25",
+      "tiempo": "01:21:39",
+      "pregunta": "¿Pone la mano en el fuego por Zapatero?",
+      "respuesta": "completa",
+      "comentario": "Tras un rodeo por el rescate de la SEPI, responde que sí."
+    },
+    {
+      "id": "P26",
+      "tiempo": "01:24:41",
+      "pregunta": "¿Cómo se emancipa hoy un joven con 1.300 €? ¿En qué han mejorado la vivienda en 8 años?",
+      "respuesta": "parcial",
+      "comentario": "Responde con ejemplos de precios y medidas, sin cuantificar mejoras para ese caso."
+    },
+    {
+      "id": "P27",
+      "contraste_id": "T2",
+      "tiempo": "01:27:04",
+      "pregunta": "¿Han hecho suficiente para que la vivienda no sea un problema crítico?",
+      "respuesta": "parcial",
+      "comentario": "Habla de «sentar las bases» y admite que la situación es mala."
+    },
+    {
+      "id": "P28",
+      "tiempo": "01:29:51",
+      "pregunta": "De las 184.000 viviendas comprometidas, ¿cuántas están entregadas y habitadas?",
+      "respuesta": "ninguna",
+      "comentario": "No da la cifra; habla de 120.000–130.000 «entregadas o en proceso»."
+    },
+    {
+      "id": "P29",
+      "contraste_id": "T5",
+      "tiempo": "01:35:41",
+      "pregunta": "La hemeroteca: indultos y amnistía, Bildu, Tribunal Constitucional, Iglesias, Sáhara, topes de alquiler y ley mordaza.",
+      "respuesta": "parcial",
+      "comentario": "Responde a indultos, Sáhara, Bildu, Iglesias y ley mordaza; omite el nombramiento de Campo al Constitucional y los topes de alquiler."
+    },
+    {
+      "id": "P30",
+      "tiempo": "01:47:00",
+      "pregunta": "¿Qué diría a quien no confía en su palabra?",
+      "respuesta": "completa",
+      "comentario": "Enumera promesas que dice haber cumplido."
+    }
+  ],
+  "afirmaciones": [
+    {
+      "id": "A1",
+      "pregunta_id": "P29",
+      "tiempo": "01:39:48",
+      "cita": "Yo nunca dije, nunca dije que eh no quería que Pablo Iglesias estuviera en el gobierno",
+      "afirmacion": "Sánchez nunca dijo que no quería a Pablo Iglesias en el Gobierno.",
+      "veredicto": "falso",
+      "explicacion": "En julio de 2019 Sánchez señaló la entrada de Iglesias en el Gobierno como el «principal escollo» para un acuerdo con Unidas Podemos. Los propios verificadores del programa citaron otra frase suya en el mismo sentido.",
+      "fuentes": [
+        {
+          "titulo": "Reuters (vía Legal Today): Sánchez cree posible un acuerdo con Podemos pero con Iglesias fuera del Gobierno",
+          "url": "https://www.legaltoday.com/rincon-de-reuters/sanchez-cree-posible-un-acuerdo-con-podemos-pero-con-iglesias-fuera-del-gobierno-2019-07-19",
+          "fecha": "2019-07-19"
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "pregunta_id": "P29",
+      "tiempo": "01:40:29",
+      "cita": "yo no he dicho lo de dormir",
+      "afirmacion": "Sánchez no dijo que no dormiría con Podemos en el Gobierno.",
+      "veredicto": "falso",
+      "explicacion": "En septiembre de 2019, en laSexta, dijo que si hubiera aceptado las exigencias de Podemos «no dormiría por la noche», como el 95% de los españoles. Maldita señala que la formulación exacta varía según la fuente, pero el sentido se mantiene.",
+      "fuentes": [
+        {
+          "titulo": "El Español: Sánchez asegura que no dormiría por la noche con ministros de Podemos",
+          "url": "https://elespanol.com/espana/politica/20190919/sanchez-asegura-no-dormiria-noche-ministros-podemos/430457554_0.html",
+          "fecha": "2019-09-19"
+        },
+        {
+          "titulo": "Maldita.es: Qué dijo Pedro Sánchez en 2019 y qué no sobre «dormir tranquilo»",
+          "url": "https://maldita.es/malditobulo/20230620/pedro-sanchez-dormir-tranquilo-ministros-unidas-podemos-gobierno",
+          "fecha": "2023-06-20"
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "pregunta_id": "P26",
+      "tiempo": "01:26:24",
+      "cita": "se han construido en torno a 1 millón de viviendas, el 13% han sido viviendas protegidas, más de 150,000 viviendas",
+      "afirmacion": "Durante su Gobierno se han construido más de 150.000 viviendas protegidas (13% de ~1 millón).",
+      "veredicto": "falso",
+      "explicacion": "Según datos del Ministerio de Vivienda recogidos por Euronews, entre 2018 y 2025 se terminaron 78.735 viviendas protegidas, alrededor de la mitad de lo afirmado. Además, el 13% de un millón son 130.000, no más de 150.000. El análisis de ElNacional sobre esta entrevista también califica de falso el dato.",
+      "fuentes": [
+        {
+          "titulo": "Euronews: De Felipe González a Pedro Sánchez, ¿con qué presidente se construyó más vivienda protegida?",
+          "url": "https://es.euronews.com/2026/10/21/de-felipe-gonzalez-a-pedro-sanchez-con-que-presidente-se-construyo-mas-vivienda-protegida",
+          "fecha": "2026-10-21"
+        },
+        {
+          "titulo": "ElNacional: Las entrevistas de Jordi Wild, bajo la lupa",
+          "url": "https://www.elnacional.cat/es/politica/entrevistas-jordi-wild-bajo-lupa-quien-ha-dicho-mas-mentiras-quien-ha-dicho-mas-verdades_1725566_102.html",
+          "fecha": "2026-11"
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "pregunta_id": "P11",
+      "tiempo": "00:34:22",
+      "cita": "nosotros no recibimos ningún aviso de ningún eh servicio de inteligencia",
+      "afirmacion": "El Gobierno no recibió ningún aviso de los servicios de inteligencia antes de la entrada masiva en Ceuta.",
+      "veredicto": "enganoso",
+      "explicacion": "El 29 de julio el CNI avisó a la Delegación del Gobierno en Ceuta y a la Policía de convocatorias en redes sociales para una entrada masiva, según comunicaciones desclasificadas. Esos avisos no anticipaban la magnitud de lo ocurrido, como admitió el propio CNI. Que no hubo «ningún aviso» es incorrecto; que no se anticipó la escala, sí se sostiene. En la transcripción, justo después aparece «el Cenos avisó de que... había unos bulos en redes», que podría ser una autocorrección.",
+      "fuentes": [
+        {
+          "titulo": "Vozpópuli: El CNI sí alertó al Gobierno un día antes del asalto masivo en Ceuta",
+          "url": "https://www.vozpopuli.com/tribunales/el-cni-si-alerto-al-gobierno-un-dia-antes-del-asalto-masivo-en-ceuta.html",
+          "fecha": "2026-09"
+        },
+        {
+          "titulo": "RTVC: El CNI admite que no anticipó «la magnitud y naturaleza» de la llegada masiva",
+          "url": "https://rtvc.es/cni-admite-no-anticipo-magnitud-naturaleza-llegada-masiva-migrantes-9-septiembre-2026/",
+          "fecha": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": "A5",
+      "pregunta_id": "P29",
+      "tiempo": "01:38:25",
+      "cita": "A ver, la posición de España es la misma que se expresa en la resolución del Consejo de Seguridad de Naciones Unidas",
+      "afirmacion": "España no ha cambiado de posición sobre el Sáhara; sigue la resolución del Consejo de Seguridad de la ONU.",
+      "veredicto": "enganoso",
+      "explicacion": "España cambió su posición en marzo de 2022 con la carta de apoyo al plan de autonomía marroquí. La resolución 2797 del Consejo de Seguridad, que consolida ese lenguaje, es de octubre de 2025, tres años y medio después. Según CIDOB, fue Francia la que siguió «la estela española». La coincidencia actual no significa que España no cambiara, y él mismo lo admite segundos después («Bueno, y lo he hecho»).",
+      "fuentes": [
+        {
+          "titulo": "CIDOB: El Sáhara Occidental y la Resolución 2797: la nueva geopolítica importa",
+          "url": "https://www.cidob.org/publicaciones/sahara-occidental-resolucion-2797-nueva-geopolitica-importa",
+          "fecha": "2025-11"
+        }
+      ]
+    },
+    {
+      "id": "A6",
+      "pregunta_id": "P18",
+      "tiempo": "01:05:11",
+      "cita": "el plan de regularización que hemos hecho, que bueno, más o menos es 1,200,000 personas",
+      "afirmacion": "La regularización extraordinaria afecta a unos 1,2 millones de personas.",
+      "veredicto": "enganoso",
+      "explicacion": "La cifra de 1,17 millones corresponde a solicitudes presentadas, no a personas regularizadas. Al cierre del plazo había 608.000 solicitudes admitidas a trámite con permiso provisional, alrededor del 52%. No se ha podido verificar el dato de «medio millón» trabajando y cotizando.",
+      "fuentes": [
+        {
+          "titulo": "La Moncloa: el plazo de la regularización extraordinaria concluye con 1.174.978 solicitudes",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/paginas/2026/020726-balance-regularizacion-extraordinaria.aspx",
+          "fecha": "2026-07-02"
+        },
+        {
+          "titulo": "Moncloa.com: Elma Saiz cierra la regularización con 608.000 admitidos a trámite",
+          "url": "https://www.moncloa.com/2026/07/02/regularizacion-extraordinaria-migrantes-admitidos-3393610",
+          "fecha": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "A7",
+      "pregunta_id": "P15",
+      "tiempo": "00:45:20",
+      "cita": "No, no, perdona, yo no me fui de vacaciones",
+      "afirmacion": "Sánchez no se fue de vacaciones durante la crisis de Ceuta.",
+      "veredicto": "enganoso",
+      "explicacion": "Según la prensa, permaneció en Lanzarote hasta el 24 de agosto y convocó el Consejo de Seguridad Nacional a su regreso, 26 días después de la entrada masiva. Él mismo reconoce minutos después que estaba «con mi familia en otra residencia oficial». Es defendible que siguiera trabajando, pero negar el periodo vacacional es engañoso.",
+      "fuentes": [
+        {
+          "titulo": "El Español: Sánchez, de veraneo pese a Ceuta",
+          "url": "https://www.elespanol.com/espana/20260804/sanchez-veraneo-pese-ceuta-ira-diputacion-permanente-hara-gabinete-crisis-gabinete/1003744342313_0.amp.html",
+          "fecha": "2026-08-04"
+        },
+        {
+          "titulo": "ESdiario: Sánchez convoca el Consejo de Seguridad Nacional 26 días después, al acabar sus vacaciones",
+          "url": "https://www.esdiario.com/nacional/260824/196044/sanchez-acuerda-ceuta-reacciona-despues-acabar-vacaciones-convoca-consejo-seguridad-nacional-26-dias-despues.html",
+          "fecha": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "A8",
+      "pregunta_id": "P12",
+      "tiempo": "00:36:04",
+      "cita": "culpaste a Rusia y a Israel. No, no, no.",
+      "afirmacion": "Sánchez niega haber atribuido responsabilidad a Rusia e Israel en la crisis de Ceuta.",
+      "veredicto": "falso",
+      "explicacion": "El 31 de agosto de 2026 Sánchez vinculó a Rusia e Israel con campañas de desinformación en torno a la crisis de Ceuta, citando al Servicio Europeo de Acción Exterior. Atribuyó la desinformación, no la entrada en sí, pero la negación rotunda no se corresponde con lo que dijo.",
+      "fuentes": [
+        {
+          "titulo": "JTA: Spain's prime minister blames Israel, Russia for disinformation around Ceuta border crisis",
+          "url": "https://www.jta.org/2026/09/01/global/spains-prime-minister-blames-israel-russia-for-disinformation-around-ceuta-border-crisis",
+          "fecha": "2026-09-01"
+        },
+        {
+          "titulo": "ElNacional: ¿Qué pruebas hay de la campaña de desinformación sobre Ceuta que Sánchez atribuye a Rusia e Israel?",
+          "url": "https://www.elnacional.cat/es/internacional/que-pruebas-hay-campana-desinformacion-sobre-ceuta-sanchez-atribuye-rusia-israel_1688587_102.html",
+          "fecha": "2026-09"
+        }
+      ]
+    },
+    {
+      "id": "A9",
+      "pregunta_id": "P21",
+      "tiempo": "01:12:19",
+      "cita": "creo recordar que si no fueron cinco, fueron seis ministros",
+      "afirmacion": "En la remodelación de 2021 salieron cinco o seis ministros.",
+      "veredicto": "falso",
+      "explicacion": "En la remodelación del 10 de julio de 2021 salieron siete de los 23 miembros del Gobierno. Él mismo lo matizó con «creo recordar».",
+      "fuentes": [
+        {
+          "titulo": "La República (EFE): Pedro Sánchez reorganiza su gabinete",
+          "url": "https://www.larepublica.co/globoeconomia/pedro-sanchez-reorganiza-su-gabinete-para-consolidar-la-recuperacion-economica-3199414",
+          "fecha": "2021-07-10"
+        }
+      ]
+    },
+    {
+      "id": "A10",
+      "pregunta_id": "P10",
+      "tiempo": "00:30:55",
+      "cita": "Los más de 80,000 que el 30 y el 31 de julio entraron en Ceuda",
+      "afirmacion": "Más de 80.000 personas entraron en Ceuta el 30 y 31 de julio.",
+      "veredicto": "mayormente_verdadero",
+      "explicacion": "Las estimaciones más citadas rondan las 72.000–80.000 entradas. El propio Gobierno habló de 49.000 el 31 de julio, como cifra provisional. No hay un recuento oficial consolidado.",
+      "fuentes": [
+        {
+          "titulo": "Wikipedia: 2026 Ceuta migrant crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis",
+          "fecha": "2026-11"
+        }
+      ]
+    },
+    {
+      "id": "A11",
+      "pregunta_id": "P11",
+      "tiempo": "00:35:24",
+      "cita": "muertos y te diré y te diré muchos menores",
+      "afirmacion": "Hubo más de 140 muertos, muchos de ellos menores.",
+      "veredicto": "verdadero",
+      "explicacion": "El balance recopilado sitúa los fallecidos en al menos 141 en Ceuta y Fnideq.",
+      "fuentes": [
+        {
+          "titulo": "Wikipedia: 2026 Ceuta migrant crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis",
+          "fecha": "2026-11"
+        }
+      ]
+    },
+    {
+      "id": "A12",
+      "pregunta_id": "P12",
+      "tiempo": "00:37:46",
+      "cita": "nueve de cada 10 migrantes que entraron salieron",
+      "afirmacion": "Nueve de cada diez migrantes salieron en las primeras 48 horas.",
+      "veredicto": "mayormente_verdadero",
+      "explicacion": "El 3 de agosto, fuentes oficiales hablaban de unos 70.000 retornos voluntarios. Frente a 72.000–80.000 entradas, son entre el 87% y el 97%, aunque en algo más de 48 horas.",
+      "fuentes": [
+        {
+          "titulo": "Wikipedia: 2026 Ceuta migrant crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis",
+          "fecha": "2026-11"
+        }
+      ]
+    },
+    {
+      "id": "A13",
+      "pregunta_id": "P15",
+      "tiempo": "00:45:00",
+      "cita": "el día siguiente estaba en Ceuta dando la cara",
+      "afirmacion": "Sánchez estuvo en Ceuta al día siguiente de la entrada masiva.",
+      "veredicto": "verdadero",
+      "explicacion": "Visitó Ceuta el 31 de julio con el ministro del Interior.",
+      "fuentes": [
+        {
+          "titulo": "Wikipedia: 2026 Ceuta migrant crisis",
+          "url": "https://en.wikipedia.org/wiki/2026_Ceuta_migrant_crisis",
+          "fecha": "2026-11"
+        }
+      ]
+    },
+    {
+      "id": "A14",
+      "pregunta_id": "P2",
+      "tiempo": "00:09:18",
+      "cita": "hasta incluso Aascala ha dicho, \"Oye, a este señor hay que colgarle de los pies, ¿eh?\"",
+      "afirmacion": "Abascal dijo que había que colgar a Sánchez de los pies.",
+      "veredicto": "mayormente_verdadero",
+      "explicacion": "En diciembre de 2023 Abascal dijo a Clarín que «habrá un momento en que el pueblo querrá colgarlo de los pies». Lo atribuyó al pueblo y no lo formuló como «hay que», y después dijo que no lo deseaba.",
+      "fuentes": [
+        {
+          "titulo": "Vozpópuli: Abascal augura a Sánchez un final como el de Mussolini",
+          "url": "https://www.vozpopuli.com/espana/abascal-augura-sanchez-final-mussolini-pueblo-querra-colgarlo-pies.html",
+          "fecha": "2023-12-10"
+        }
+      ]
+    },
+    {
+      "id": "A15",
+      "pregunta_id": "P18",
+      "tiempo": "01:07:34",
+      "cita": "en el caso de Ávalos ya condenado, 24 años de cárcel",
+      "afirmacion": "(Entrevistador) Ábalos ha sido condenado a 24 años de cárcel.",
+      "veredicto": "verdadero",
+      "explicacion": "El Supremo le condenó el 22 de junio de 2026 a 24 años y 3 meses por el caso mascarillas.",
+      "fuentes": [
+        {
+          "titulo": "Euronews: El Supremo condena a Ábalos a 24 años de cárcel",
+          "url": "https://es.euronews.com/2026/06/22/el-supremo-condena-a-abalos-a-24-anos-de-carcel-en-el-caso-mascarillas",
+          "fecha": "2026-06-22"
+        }
+      ]
+    },
+    {
+      "id": "A16",
+      "pregunta_id": "P23",
+      "tiempo": "01:19:55",
+      "cita": "La UCO atribuye al partido 43,225 € que le llegaron a través de intermediarios",
+      "afirmacion": "(Entrevistador) La UCO atribuye al PSOE 43.225 € pagados a Leire Díez.",
+      "veredicto": "verdadero",
+      "explicacion": "El informe de la UCO sitúa en el PSOE el origen de al menos 43.225 € pagados a Díez a través de sociedades intermediarias. La UCO advierte de que no permite conclusiones definitivas.",
+      "fuentes": [
+        {
+          "titulo": "Euronews: Caso Leire Díez, la UCO confirma pagos del PSOE por valor de 43.225 euros",
+          "url": "https://es.euronews.com/my-europe/2026/07/14/caso-leire-diez-la-uco-confirma-pagos-del-psoe-por-valor-de-43225-euros-a-traves-de-interm",
+          "fecha": "2026-07-14"
+        }
+      ]
+    },
+    {
+      "id": "A17",
+      "pregunta_id": "P28",
+      "tiempo": "01:29:51",
+      "cita": "el 18 de diciembre del 23 te comprometiste a habilitar 184,000 viviendas públicas",
+      "afirmacion": "(Entrevistador) Sánchez prometió el 18-12-2023 habilitar 184.000 viviendas en la legislatura.",
+      "veredicto": "verdadero",
+      "explicacion": "Lo anunció ese día en la inauguración de la Casa de la Arquitectura.",
+      "fuentes": [
+        {
+          "titulo": "La Moncloa: «Si España tiene hoy un gran reto constitucional, ese es el de la vivienda»",
+          "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2023/181223-sanchez-casa-arquitectura.aspx",
+          "fecha": "2023-12-18"
+        }
+      ]
+    },
+    {
+      "id": "A18",
+      "pregunta_id": "P28",
+      "tiempo": "01:30:33",
+      "cita": "en torno a unas 120 130",
+      "afirmacion": "Hay unas 120.000–130.000 de las 184.000 viviendas entregadas o en proceso.",
+      "veredicto": "no_verificable",
+      "explicacion": "No hay datos públicos desagregados de viviendas entregadas y habitadas. En octubre de 2024 se habían entregado unas 10.206, el 5,5% del objetivo. Mezclar «entregadas» con «en proceso» impide contrastar la cifra.",
+      "fuentes": [
+        {
+          "titulo": "El Debate: De las 184.000 viviendas prometidas, solo se ha entregado el 5,5%",
+          "url": "https://www.eldebate.com/economia/20241004/184000-viviendas-prometidas-sanchez-solo-entregado-55_232548.html",
+          "fecha": "2024-10-04"
+        }
+      ]
+    },
+    {
+      "id": "A19",
+      "pregunta_id": "P16",
+      "tiempo": "00:48:03",
+      "cita": "tardaste 25 días aproximadamente en convocar el Consejo de Seguridad Nacional",
+      "afirmacion": "(Entrevistador) El Consejo de Seguridad Nacional se convocó unos 25 días después.",
+      "veredicto": "verdadero",
+      "explicacion": "Se convocó el 24 de agosto para el día 25, 26 días después del inicio de la crisis.",
+      "fuentes": [
+        {
+          "titulo": "Infobae (Europa Press): Sánchez convoca de forma extraordinaria al Consejo de Seguridad Nacional",
+          "url": "https://www.infobae.com/espana/agencias/2026/08/24/sanchez-convoca-manana-de-forma-extraordinaria-al-consejo-de-seguridad-nacional-para-abordar-la-crisis-de-ceuta/",
+          "fecha": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "A20",
+      "pregunta_id": "P18",
+      "tiempo": "01:00:46",
+      "cita": "en 50 años el 40% aproximado de el residente español será inmigrante",
+      "afirmacion": "(Entrevistador) Según el INE, en 50 años cerca del 40% de residentes habrá nacido fuera.",
+      "veredicto": "verdadero",
+      "explicacion": "La proyección 2026–2076 del INE sitúa en el 59,6% la población nacida en España dentro de 50 años, es decir, un 40,4% nacida fuera.",
+      "fuentes": [
+        {
+          "titulo": "INE: Proyecciones de Población 2026–2076",
+          "url": "https://ine.es/dyngs/Prensa/PROP20262076.htm",
+          "fecha": "2026"
+        }
+      ]
+    },
+    {
+      "id": "A21",
+      "pregunta_id": "P17",
+      "tiempo": "00:54:13",
+      "cita": "la primera nacionalidad colombiana",
+      "afirmacion": "En la regularización, la mayoría son latinoamericanos y la primera nacionalidad es la colombiana.",
+      "veredicto": "verdadero",
+      "explicacion": "Por solicitudes: Colombia 25,9%, Marruecos 13,3%, Venezuela 11,8%, Perú 8,8% y Honduras 4,9%.",
+      "fuentes": [
+        {
+          "titulo": "El Progreso: La regularización extraordinaria se cierra con casi 1,2 millones de solicitudes",
+          "url": "https://www.elprogreso.es/articulo/espana/regularizacion-extraordinaria-migrantes-cierra-casi-12-millones-solicitudes/202607021234241982747.html",
+          "fecha": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "A22",
+      "pregunta_id": "P17",
+      "tiempo": "00:54:13",
+      "cita": "del del 100% de migrantes que nos llegan, el 40% son europeos",
+      "afirmacion": "El 40% de los migrantes que llegan son europeos y otro 40% latinoamericanos.",
+      "veredicto": "no_verificable",
+      "explicacion": "No se ha localizado el desglose por continentes. En los flujos de 2024 del INE, las tres primeras nacionalidades son Colombia, Marruecos y Venezuela, sin ningún país europeo. Los verificadores del programa le corrigieron en directo al recordar que Marruecos es la segunda.",
+      "fuentes": [
+        {
+          "titulo": "INE: Estadística de Migraciones y Cambios de Residencia 2024",
+          "url": "https://ine.es/dyngs/Prensa/EMCR2024.htm",
+          "fecha": "2025"
+        }
+      ]
+    },
+    {
+      "id": "A23",
+      "pregunta_id": "P17",
+      "tiempo": "00:56:19",
+      "cita": "el 25% del crecimiento económico eh que hemos experimentado durante todo este tiempo trae causa del aporte de la migración",
+      "afirmacion": "El 25% del crecimiento económico se debe a la migración.",
+      "veredicto": "no_verificable",
+      "explicacion": "No hay ninguna fuente que dé el 25%. El Banco de España estima una contribución mayor en periodos recientes: unos 1,7 puntos de un crecimiento medio del 3,7% en 2022–2025, aproximadamente el 46%. El dato no exagera a su favor.",
+      "fuentes": [
+        {
+          "titulo": "Europa Press (Bolsamanía): Los inmigrantes aportaron 1,7 puntos al alza del PIB entre 2022 y 2025",
+          "url": "https://www.bolsamania.com/noticias/economia/economia--los-inmigrantes-aportaron-17-puntos-al-alza-del-pib-espanol-entre-2022-y-2025-y-05-puntos-al-pib-per-capita--22906098.html",
+          "fecha": "2026"
+        }
+      ]
+    },
+    {
+      "id": "A24",
+      "pregunta_id": "P18",
+      "tiempo": "01:04:30",
+      "cita": "se recortaron las fuerzas y cuerpos de seguridad del Estado en 15000 efectivos y hoy hay 180.000 efectivos",
+      "afirmacion": "Con Rajoy se recortaron 15.000 efectivos policiales y hoy hay 180.000.",
+      "veredicto": "no_verificable",
+      "explicacion": "Las estimaciones localizadas de pérdida de efectivos entre 2011 y 2018 van de unos 8.000 (Hacienda) a unos 11.300 (asociación profesional). No se ha encontrado una fuente para los 15.000 ni para los 180.000 actuales.",
+      "fuentes": [
+        {
+          "titulo": "Público: los datos de Interior con Rajoy",
+          "url": "https://www.publico.es/politica/datos-interior-rajoy-peor-ministro.html",
+          "fecha": "2018"
+        }
+      ]
+    },
+    {
+      "id": "A25",
+      "pregunta_id": "P18",
+      "tiempo": "01:01:48",
+      "cita": "pasar de cinco semanas los permisos de paternidad y y maternidad, equipararlos",
+      "afirmacion": "El permiso de paternidad pasó de 5 a 19 semanas, equiparado con el de maternidad.",
+      "veredicto": "mayormente_verdadero",
+      "explicacion": "El RDL 9/2025 amplió el permiso a 19 semanas por progenitor (17 de nacimiento más 2 de cuidado), tras la equiparación de 2021. No se ha verificado con fuentes la cifra de partida de 5 semanas. Además, 19 semanas no son «100 días»: el aumento es de unas 14 semanas, unos 98 días.",
+      "fuentes": [
+        {
+          "titulo": "Cuatrecasas: Ampliación del permiso de nacimiento y cuidado en España",
+          "url": "https://www.cuatrecasas.com/es/spain/laboral/art/ampliacion-permiso-nacimiento-cuidado",
+          "fecha": "2025-07"
+        }
+      ]
+    },
+    {
+      "id": "A26",
+      "pregunta_id": "P5",
+      "tiempo": "00:15:56",
+      "cita": "nosotros hemos multiplicado por 20 durante estos últimos 8 años, por 20 la inversión",
+      "afirmacion": "La inversión en la línea Madrid–Sevilla se ha multiplicado por 20 en 8 años.",
+      "veredicto": "no_verificable",
+      "explicacion": "No hay datos públicos localizados que permitan comprobar el multiplicador. El tramo de Adamuz se había renovado recientemente con una inversión de 700 millones.",
+      "fuentes": []
+    },
+    {
+      "id": "A27",
+      "pregunta_id": "P7",
+      "tiempo": "00:26:05",
+      "cita": "el Partido Socialista estando en la oposición no pidió la dimisión de Ana Pastor",
+      "afirmacion": "El PSOE no pidió la dimisión de Ana Pastor tras Angrois.",
+      "veredicto": "no_verificable",
+      "explicacion": "No se ha encontrado ninguna petición de dimisión del PSOE en 2013. La pidieron las víctimas. Tampoco se ha verificado que Feijóo culpara al maquinista.",
+      "fuentes": []
+    },
+    {
+      "id": "A28",
+      "pregunta_id": "P3",
+      "tiempo": "00:10:43",
+      "cita": "los 11 puntos de la comunicación fascista de Gbels",
+      "afirmacion": "Existen 11 principios de propaganda de Goebbels.",
+      "veredicto": "no_verificable",
+      "explicacion": "La lista de «11 principios» circula sin un texto original citado y no coincide con el análisis académico de los diarios de Goebbels (Doob, 1950). Su atribución es dudosa.",
+      "fuentes": [
+        {
+          "titulo": "SMU: Goebbels' Principles of Propaganda (Doob, 1950)",
+          "url": "https://physics.smu.edu/pseudo/Propaganda/goebbels.html",
+          "fecha": ""
+        }
+      ]
+    },
+    {
+      "id": "A29",
+      "pregunta_id": "P4",
+      "tiempo": "00:15:36",
+      "cita": "en la línea en la que se han eh concentrado los dos desgraciados accidentes",
+      "afirmacion": "(Contexto) Dos accidentes mortales en la línea Madrid–Sevilla en menos de un año y la dimisión de Puente.",
+      "veredicto": "verdadero",
+      "explicacion": "Adamuz (18 de enero de 2026) y Urda (finales de octubre de 2026, 69 muertos). Óscar Puente dimitió el 3 de noviembre.",
+      "fuentes": [
+        {
+          "titulo": "Telemundo (EFE): Dimite el ministro español de Transportes tras el choque de trenes que dejó 69 muertos",
+          "url": "https://www.telemundo.com/noticias/noticias-telemundo/internacional/dimite-ministro-espanol-de-transportes-tras-el-accidente-de-tren-rcna607315",
+          "fecha": "2026-11-03"
+        },
+        {
+          "titulo": "Wikipedia: 2026 Adamuz rail disaster",
+          "url": "https://en.wikipedia.org/wiki/2026_Adamuz_rail_disaster",
+          "fecha": "2026"
+        }
+      ]
+    }
+  ],
+  "hallazgos": [
+    {
+      "id": "H1",
+      "categoria": "falsedad",
+      "etiqueta": "Afirmación falsa",
+      "tiempo": "01:39:48",
+      "cita": "Yo nunca dije, nunca dije que eh no quería que Pablo Iglesias estuviera en el gobierno",
+      "pregunta_id": "P29",
+      "afirmacion_id": "A1",
+      "explicacion": "En julio de 2019 Sánchez señaló públicamente la entrada de Iglesias como el «principal escollo» para formar Gobierno. Los verificadores del programa citaron en directo otra frase suya en el mismo sentido.",
+      "severidad": "alta",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "Reuters (vía Legal Today)",
+          "url": "https://www.legaltoday.com/rincon-de-reuters/sanchez-cree-posible-un-acuerdo-con-podemos-pero-con-iglesias-fuera-del-gobierno-2019-07-19",
+          "fecha": "2019-07-19"
+        }
+      ]
+    },
+    {
+      "id": "H2",
+      "categoria": "incoherencia",
+      "subtipo": "interna y externa",
+      "etiqueta": "Incoherencia",
+      "tiempo": "01:40:29",
+      "cita": "yo no he dicho lo de dormir",
+      "cita_relacionada": "lo que me quitaba el sueño es que, por ejemplo, la seguridad social o la Hacienda la llevar a Podemos",
+      "pregunta_id": "P29",
+      "afirmacion_id": "A2",
+      "explicacion": "Veinte segundos antes dice que «lo que me quitaba el sueño» era que Podemos gestionara Seguridad Social o Hacienda, y después niega haber hablado de dormir. En septiembre de 2019 dijo que «no dormiría por la noche» con ministros de Podemos, con variaciones de formulación según la fuente.",
+      "severidad": "media",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "El Español",
+          "url": "https://elespanol.com/espana/politica/20190919/sanchez-asegura-no-dormiria-noche-ministros-podemos/430457554_0.html",
+          "fecha": "2019-09-19"
+        },
+        {
+          "titulo": "Maldita.es",
+          "url": "https://maldita.es/malditobulo/20230620/pedro-sanchez-dormir-tranquilo-ministros-unidas-podemos-gobierno",
+          "fecha": "2023-06-20"
+        }
+      ]
+    },
+    {
+      "id": "H3",
+      "categoria": "falsedad",
+      "etiqueta": "Afirmación falsa",
+      "tiempo": "01:26:24",
+      "cita": "se han construido en torno a 1 millón de viviendas, el 13% han sido viviendas protegidas, más de 150,000 viviendas",
+      "pregunta_id": "P26",
+      "afirmacion_id": "A3",
+      "explicacion": "Los datos del Ministerio de Vivienda dan 78.735 viviendas protegidas terminadas entre 2018 y 2025, alrededor de la mitad de lo afirmado. Además, la cifra no es coherente consigo misma: el 13% de un millón son 130.000. La confianza es media porque podría estar contando viviendas iniciadas o calificadas, aunque no lo precisa.",
+      "severidad": "alta",
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Euronews",
+          "url": "https://es.euronews.com/2026/10/21/de-felipe-gonzalez-a-pedro-sanchez-con-que-presidente-se-construyo-mas-vivienda-protegida",
+          "fecha": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "H4",
+      "categoria": "falsedad",
+      "etiqueta": "Afirmación engañosa",
+      "tiempo": "00:34:22",
+      "cita": "nosotros no recibimos ningún aviso de ningún eh servicio de inteligencia",
+      "pregunta_id": "P11",
+      "afirmacion_id": "A4",
+      "explicacion": "El CNI avisó el 29 de julio a la Delegación del Gobierno y a la Policía de convocatorias en redes sociales para una entrada masiva, aunque sin anticipar su magnitud. Que no se previó la escala se sostiene; que no hubo «ningún aviso», no. La pregunta era además por qué no hubo consecuencias en el CNI, y no se responde.",
+      "severidad": "alta",
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Vozpópuli",
+          "url": "https://www.vozpopuli.com/tribunales/el-cni-si-alerto-al-gobierno-un-dia-antes-del-asalto-masivo-en-ceuta.html",
+          "fecha": "2026-09"
+        },
+        {
+          "titulo": "RTVC",
+          "url": "https://rtvc.es/cni-admite-no-anticipo-magnitud-naturaleza-llegada-masiva-migrantes-9-septiembre-2026/",
+          "fecha": "2026-09-09"
+        }
+      ]
+    },
+    {
+      "id": "H5",
+      "categoria": "falsedad",
+      "etiqueta": "Afirmación engañosa",
+      "tiempo": "01:38:25",
+      "cita": "A ver, la posición de España es la misma que se expresa en la resolución del Consejo de Seguridad de Naciones Unidas",
+      "cita_relacionada": "Bueno, y lo he hecho.",
+      "pregunta_id": "P29",
+      "afirmacion_id": "A5",
+      "explicacion": "Presenta su posición sobre el Sáhara como un simple alineamiento con la ONU. Sin embargo, España cambió en marzo de 2022 y la resolución 2797 llegó en octubre de 2025; fueron otros países los que siguieron a España. Él mismo admite a continuación que fue «por libre».",
+      "severidad": "media",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "CIDOB",
+          "url": "https://www.cidob.org/publicaciones/sahara-occidental-resolucion-2797-nueva-geopolitica-importa",
+          "fecha": "2025-11"
+        }
+      ]
+    },
+    {
+      "id": "H6",
+      "categoria": "falsedad",
+      "etiqueta": "Afirmación engañosa",
+      "tiempo": "01:05:11",
+      "cita": "el plan de regularización que hemos hecho, que bueno, más o menos es 1,200,000 personas",
+      "afirmacion_id": "A6",
+      "explicacion": "Los 1,17 millones son solicitudes, no personas regularizadas. Al cierre del plazo había unas 608.000 admitidas a trámite con permiso provisional.",
+      "severidad": "media",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "La Moncloa",
+          "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/paginas/2026/020726-balance-regularizacion-extraordinaria.aspx",
+          "fecha": "2026-07-02"
+        },
+        {
+          "titulo": "Moncloa.com",
+          "url": "https://www.moncloa.com/2026/07/02/regularizacion-extraordinaria-migrantes-admitidos-3393610",
+          "fecha": "2026-07-02"
+        }
+      ]
+    },
+    {
+      "id": "H7",
+      "categoria": "incoherencia",
+      "subtipo": "interna",
+      "etiqueta": "Incoherencia",
+      "tiempo": "00:45:20",
+      "cita": "No, no, perdona, yo no me fui de vacaciones",
+      "cita_relacionada": "estaba con mi familia, estaba estaba con mi familia en otra residencia oficial del del gobierno",
+      "pregunta_id": "P15",
+      "afirmacion_id": "A7",
+      "explicacion": "Niega haberse ido de vacaciones y cuatro minutos después reconoce que estaba con su familia en otra residencia oficial. Según la prensa, estuvo en Lanzarote hasta el 24 de agosto.",
+      "severidad": "media",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "El Español",
+          "url": "https://www.elespanol.com/espana/20260804/sanchez-veraneo-pese-ceuta-ira-diputacion-permanente-hara-gabinete-crisis-gabinete/1003744342313_0.amp.html",
+          "fecha": "2026-08-04"
+        },
+        {
+          "titulo": "ESdiario",
+          "url": "https://www.esdiario.com/nacional/260824/196044/sanchez-acuerda-ceuta-reacciona-despues-acabar-vacaciones-convoca-consejo-seguridad-nacional-26-dias-despues.html",
+          "fecha": "2026-08-24"
+        }
+      ]
+    },
+    {
+      "id": "H8",
+      "categoria": "incoherencia",
+      "subtipo": "externa",
+      "etiqueta": "Incoherencia",
+      "tiempo": "00:36:04",
+      "cita": "culpaste a Rusia y a Israel. No, no, no.",
+      "pregunta_id": "P12",
+      "afirmacion_id": "A8",
+      "explicacion": "Ante la observación del entrevistador, Sánchez responde «No, no, no» y pasa a explicar el dilema de la frontera. El 31 de agosto de 2026 había vinculado públicamente a Rusia e Israel con campañas de desinformación sobre la crisis. Matiz: les atribuyó la desinformación, no la entrada en sí. La confianza es media porque los hablantes se infieren de subtítulos automáticos.",
+      "severidad": "media",
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "JTA",
+          "url": "https://www.jta.org/2026/09/01/global/spains-prime-minister-blames-israel-russia-for-disinformation-around-ceuta-border-crisis",
+          "fecha": "2026-09-01"
+        }
+      ]
+    },
+    {
+      "id": "H9",
+      "categoria": "error_factual",
+      "etiqueta": "Error factual",
+      "tiempo": "01:12:19",
+      "cita": "creo recordar que si no fueron cinco, fueron seis ministros",
+      "pregunta_id": "P21",
+      "afirmacion_id": "A9",
+      "explicacion": "En la remodelación de julio de 2021 salieron siete ministros. El argumento, que fue una renovación general y no un castigo a Ábalos, no depende de esta cifra.",
+      "severidad": "baja",
+      "confianza": "alta",
+      "fuentes": [
+        {
+          "titulo": "La República (EFE)",
+          "url": "https://www.larepublica.co/globoeconomia/pedro-sanchez-reorganiza-su-gabinete-para-consolidar-la-recuperacion-economica-3199414",
+          "fecha": "2021-07-10"
+        }
+      ]
+    },
+    {
+      "id": "H10",
+      "categoria": "evasiva",
+      "etiqueta": "Sin respuesta",
+      "tiempo": "01:27:08",
+      "cita": "Yo creo que ese debate hoy pues es eh digamos está superado.",
+      "pregunta_id": "P9",
+      "explicacion": "Ante la pregunta de si habría cesado a Óscar Puente de no haber dimitido, no responde. Al repreguntarle, insiste en que la decisión fue de Puente. Es una pregunta de sí o no sobre su propio criterio.",
+      "severidad": "alta",
+      "confianza": "alta"
+    },
+    {
+      "id": "H11",
+      "categoria": "evasiva",
+      "etiqueta": "Sin respuesta",
+      "tiempo": "00:26:47",
+      "cita": "Bueno, eso te lo puedo dejar a ti y a los oyentes",
+      "pregunta_id": "P8",
+      "explicacion": "Usa Angrois como argumento («no pedimos la dimisión»), pero cuando se le pregunta si aquella posición fue un error, no se pronuncia.",
+      "severidad": "media",
+      "confianza": "alta"
+    },
+    {
+      "id": "H12",
+      "categoria": "evasiva",
+      "etiqueta": "Respuesta parcial",
+      "tiempo": "01:30:12",
+      "cita": "no te quiero decir ahora mismo el dato exacto porque porque no buscado y no lo he encontrado",
+      "pregunta_id": "P28",
+      "afirmacion_id": "A18",
+      "explicacion": "Se le pregunta cuántas de las 184.000 viviendas prometidas están entregadas y habitadas. Da una cifra de «entregadas o en proceso» que no permite saberlo y pasa a hablar de Casa 47 y del presupuesto. El entrevistador lo repregunta dos veces.",
+      "severidad": "alta",
+      "confianza": "alta"
+    },
+    {
+      "id": "H13",
+      "categoria": "desvio",
+      "subtipo": "hombre de paja",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "00:41:13",
+      "cita": "Fíjate, están con el rollo de si me infecta, evidentemente a mí me hackearon",
+      "cita_relacionada": "yo no te digo por el tema del jaqueo, yo no te lo he mencionado",
+      "pregunta_id": "P13",
+      "explicacion": "Ante la percepción de «pleitesía» hacia Marruecos, responde a una sospecha no planteada: el hackeo de su móvil con Pegasus. El entrevistador aclara dos veces que no lo había mencionado.",
+      "severidad": "media",
+      "confianza": "media"
+    },
+    {
+      "id": "H14",
+      "categoria": "desvio",
+      "subtipo": "cambio de tema",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "01:17:51",
+      "cita": "Bueno, eh, permíteme que amplíe el foco, ¿vale?",
+      "pregunta_id": "P22",
+      "explicacion": "La pregunta es qué dice de su criterio haber elegido a dos secretarios de Organización investigados o condenados. Pasa a hablar de la integridad del resto de ministros sin valorar su criterio en esos dos casos.",
+      "severidad": "media",
+      "confianza": "alta"
+    },
+    {
+      "id": "H15",
+      "categoria": "desvio",
+      "subtipo": "hombre de paja",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "01:01:06",
+      "cita": "¿Nosotros queremos ser una sociedad próspera o una sociedad decadente?",
+      "pregunta_id": "P18",
+      "explicacion": "Ante la pregunta de si le preocupa la proyección del INE (40% de nacidos fuera en 50 años), plantea un dilema entre prosperidad y decadencia en lugar de responder si le alarma o no.",
+      "severidad": "baja",
+      "confianza": "media"
+    },
+    {
+      "id": "H16",
+      "categoria": "desvio",
+      "subtipo": "y tú más",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "00:26:05",
+      "cita": "Por cierto, Feijóo era el presidente de la Xunta y acusó al trabajador, al maquinista.",
+      "pregunta_id": "P8",
+      "explicacion": "Al defender la gestión de los accidentes de 2026, introduce la actuación de un rival político en 2013, ajena a la pregunta. La alusión a Feijóo no se ha verificado.",
+      "severidad": "baja",
+      "confianza": "media"
+    },
+    {
+      "id": "H17",
+      "categoria": "desvio",
+      "subtipo": "y tú más",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "00:21:40",
+      "cita": "esto no es, por ejemplo, como sucedió con Ayuso y las residencias de mayores durante la pandemia",
+      "pregunta_id": "P6",
+      "explicacion": "Para explicar por qué Puente no tenía responsabilidad política, compara con casos de dirigentes del PP (Ayuso, Mazón) en lugar de valorar los hechos del propio ministerio.",
+      "severidad": "baja",
+      "confianza": "media"
+    },
+    {
+      "id": "H18",
+      "categoria": "desvio",
+      "subtipo": "cambio de tema",
+      "etiqueta": "Desvío de atención",
+      "tiempo": "01:21:39",
+      "cita": "Mira, aquí hay dos casos para que no es uno, son dos",
+      "cita_relacionada": "la pregunta era muy simple, era si tú personalmente a personal confías en el",
+      "pregunta_id": "P25",
+      "explicacion": "A la pregunta de si pone la mano en el fuego por Zapatero responde primero con una larga explicación sobre el fondo de rescate de la SEPI. Acaba respondiendo que sí después de que el entrevistador le recuerde la pregunta.",
+      "severidad": "baja",
+      "confianza": "alta"
+    }
+  ],
+  "contrastes": [
+    {
+      "id": "T1",
+      "pregunta_id": "P3",
+      "tiempo": "00:10:22",
+      "cita": "yo creo que los insultos son asimétricos, eh, y que la polarización es asimétrica",
+      "tesis": "La crispación y los insultos no son simétricos: los generan sobre todo sus adversarios, no su bloque.",
+      "tipo": "mixta",
+      "componente_empirico": "Se puede medir quién emite más descalificaciones (recuentos en los diarios de sesiones) y qué votantes muestran más polarización afectiva (encuestas CNEP, CSES, E-DEM). No se puede medir quién tiene la «culpa» ni qué expresiones son más graves.",
+      "evidencia": "No se ha localizado ningún estudio académico que mida una asimetría por bloques en España. Los datos disponibles apuntan a un fenómeno compartido. Un recuento de 2.200 descalificaciones en seis meses del Congreso sitúa entre los diputados con más intervenciones de este tipo a miembros de Vox, del PP y del propio PSOE (entre ellos, el ministro Óscar Puente); el recuento es automatizado y su autor advierte de que no es exhaustivo. Un estudio de la Universidad de Navarra (investiduras 2000–2023) observa un aumento general de las descalificaciones y de la retórica «nosotros contra ellos». A largo plazo (1993–2019), Miller y Torcal describen la polarización afectiva española como impulsada más por la adhesión al líder propio que por el rechazo al rival, sin desglosarla por bloques. La versión fuerte de la tesis (que la crispación la generan sobre todo los rivales) no está respaldada; que haya diferencias de intensidad entre actores es posible, pero no está medido.",
+      "valoracion": "evidencia_dividida",
+      "argumentos_a_favor": [
+        "Algunas expresiones de dirigentes de la oposición tienen una gravedad difícil de equiparar, como la de Abascal sobre «colgar de los pies» al presidente, investigada por la Fiscalía.",
+        "Se puede distinguir el tono de confrontación de los insultos personales y de la deshumanización: un recuento que suma «burlas» e «interrupciones» mezcla fenómenos de gravedad muy distinta."
+      ],
+      "argumentos_en_contra": [
+        "Los recuentos disponibles sitúan a miembros del propio Gobierno entre los diputados con más descalificaciones, así que el fenómeno no es exclusivo de la oposición.",
+        "Calificar a medios o rivales como «fachosfera» o «máquina del fango», como señaló el entrevistador, también contribuye a la polarización afectiva aunque no sea un insulto personal."
+      ],
+      "confianza": "baja",
+      "fuentes": [
+        {
+          "titulo": "Infobae: la abogada que ha contabilizado los 2.220 insultos en el Congreso",
+          "url": "https://www.infobae.com/espana/2026/04/28/mafia-sanchista-senoro-miserable-traidor-perritos-falderos-la-abogada-que-ha-contabilizado-los-2220-insultos-que-sus-senorias-se-dicen-en-el-congreso-de-los-diputados/?outputType=amp-type",
+          "fecha": "2026-04-28",
+          "tipo": "prensa"
+        },
+        {
+          "titulo": "Universidad de Navarra: más insultos en el Congreso en los últimos años (vía OKDiario Navarra)",
+          "url": "https://navarra.okdiario.com/articulo/politica/estudio-universidad-navarra-detecta-mas-insultos-congreso-ultimos-anos/20260904114524658873.html",
+          "fecha": "2026-09-04",
+          "tipo": "academica"
+        },
+        {
+          "titulo": "Miller y Torcal: Veinticinco años de polarización afectiva en España (The Conversation)",
+          "url": "https://theconversation.com/veinticinco-anos-de-polarizacion-afectiva-en-espana-149237",
+          "fecha": "2020-10",
+          "tipo": "academica"
+        }
+      ]
+    },
+    {
+      "id": "T2",
+      "pregunta_id": "P27",
+      "tiempo": "01:32:35",
+      "cita": "se están conteniendo la evolución del precio de los alquileres",
+      "tesis": "La ley estatal de vivienda (topes en zonas tensionadas) está conteniendo los precios del alquiler donde se aplica.",
+      "tipo": "empirica_disputada",
+      "componente_empirico": "Evolución de las rentas en zonas tensionadas frente a no tensionadas, y efecto sobre la oferta y el número de contratos de larga duración.",
+      "evidencia": "Las rentas declaradas crecieron mucho menos en las zonas tensionadas de Cataluña que en las no tensionadas: +0,7% frente a +11% según el Govern, y Barcelona bajó un 4,4%. Esade ya observó un efecto a la baja en los precios con la ley catalana de 2020. Sin embargo, esas mismas fuentes y otras recogen una caída de los contratos de larga duración (Barcelona −15% en 2022 según Esade; más del 33% en algunos municipios según fianzas de Incasòl) y un aumento del alquiler de temporada, que escapa al tope. El Banco de España advierte de posibles efectos no deseados y pide una evaluación que aún no existe. La parte de la tesis sobre precios está respaldada; queda en disputa si el efecto neto sobre el acceso a la vivienda es positivo.",
+      "valoracion": "parcialmente_respaldada",
+      "argumentos_a_favor": [
+        "La diferencia de evolución de precios entre zonas con y sin tope es grande y consistente en varias fuentes.",
+        "Los contratos vigentes ganan estabilidad (cinco años) y previsibilidad de renta."
+      ],
+      "argumentos_en_contra": [
+        "Si la oferta de larga duración se reduce, el precio medio registrado puede bajar mientras empeora el acceso real, porque hay menos pisos disponibles.",
+        "Parte de la oferta se desplaza al alquiler de temporada o al mercado no regulado, cuyas rentas suben. El Banco de España señala además el riesgo de menor inversión en vivienda."
+      ],
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Idealista: el Banco de España desinfla el efecto de los topes al alquiler",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/06/19/902707-de-los-topes-al-alquiler-a-los-avales-publicos-el-banco-de-espana-desinfla-el",
+          "fecha": "2026-06-19",
+          "tipo": "oficial"
+        },
+        {
+          "titulo": "Esade EcPol: Los efectos de la limitación de precios de los alquileres en Cataluña",
+          "url": "https://www.esade.edu/ecpol/wp-content/uploads/2023/02/Esade_ControlAlq.pdf",
+          "fecha": "2023-02",
+          "tipo": "academica"
+        },
+        {
+          "titulo": "Catalunya Press: la diferencia entre alquilar con tope y sin él",
+          "url": "https://www.catalunyapress.es/articulo/economia/2026-11-08/6075242-dato-evidencia-diferencia-entre-alquilar-tope-precios-catalunya",
+          "fecha": "2026-11-08",
+          "tipo": "prensa"
+        },
+        {
+          "titulo": "Idealista: dos años de zonas tensionadas en Cataluña, caída de la oferta",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/03/16/888113-dos-anos-de-alquiler-en-zonas-tensionadas-en-cataluna-espantada-de-la-oferta-y-una",
+          "fecha": "2026-03-16",
+          "tipo": "prensa"
+        }
+      ]
+    },
+    {
+      "id": "T3",
+      "pregunta_id": "P17",
+      "tiempo": "00:57:01",
+      "cita": "es de los de la de la población que menos utiliza esos servicios públicos",
+      "tesis": "La población migrante utiliza menos los servicios públicos que la nativa.",
+      "tipo": "empirica",
+      "componente_empirico": "Frecuencia de uso y gasto per cápita de servicios públicos, sobre todo sanitarios, por origen, idealmente ajustando por edad.",
+      "evidencia": "En sanidad, varios estudios coinciden en que la población inmigrante usa menos los servicios y genera un gasto per cápita inferior, también en atención primaria infantil tras ajustar por edad y sexo. Hay matices: usa más las urgencias hospitalarias (41% frente a 25% en una encuesta), y buena parte de la diferencia se explica por su menor edad media. No se han localizado datos comparables para otros servicios que citó el entrevistador, como el transporte. La tesis está respaldada en sanidad, pero no demostrada para «los servicios públicos» en general.",
+      "valoracion": "parcialmente_respaldada",
+      "argumentos_a_favor": [
+        "La evidencia sobre sanidad es consistente entre estudios y en algunos casos se mantiene tras ajustar por edad.",
+        "Una población más joven y en edad de trabajar consume menos pensiones y sanidad y aporta cotizaciones."
+      ],
+      "argumentos_en_contra": [
+        "La comparación sin ajustar por edad exagera la diferencia, y en urgencias el uso es mayor.",
+        "La saturación percibida depende del crecimiento rápido de la población en zonas concretas, no del uso medio por persona, como objetó el entrevistador."
+      ],
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Consumer: Los inmigrantes usan la sanidad pública menos que los españoles (estudios Fundación Ciencias de la Salud y Fundación Pfizer)",
+          "url": "https://www.consumer.es/?p=211593",
+          "fecha": "",
+          "tipo": "prensa"
+        },
+        {
+          "titulo": "Informe sobre la contribución de la inmigración a la economía española (2019)",
+          "url": "https://www.eoi.at/wp-content/uploads/2020/12/Es-II_Estudios_documentos_de_trabajo_2019-AR-ES.pdf",
+          "fecha": "2019",
+          "tipo": "think_tank"
+        },
+        {
+          "titulo": "Estudio: uso de servicios por inmigrantes y nativos (Redalyc)",
+          "url": "https://www.redalyc.org/pdf/170/17083212.pdf",
+          "fecha": "",
+          "tipo": "academica"
+        }
+      ]
+    },
+    {
+      "id": "T4",
+      "pregunta_id": "P18",
+      "tiempo": "01:03:09",
+      "cita": "va a ser menor y por tanto vamos a ser más pobres",
+      "tesis": "Sin aumentar la población migrante, España será más pobre y no podrá sostener su estado del bienestar.",
+      "tipo": "mixta",
+      "componente_empirico": "Contribución de la inmigración al crecimiento del PIB total y per cápita, y a la sostenibilidad de las pensiones.",
+      "evidencia": "El Banco de España estima que la inmigración aportó unos 1,7 de los 3,7 puntos de crecimiento medio anual del PIB en 2022–2025, pero solo unos 0,5 puntos al crecimiento del PIB per cápita, que es lo que mide si un país es «más rico» por habitante. Los trabajos académicos y la AIReF coinciden en que la inmigración alivia y retrasa la presión sobre las pensiones, pero no la resuelve por sí sola. La tesis de que sin migración la economía y la fuerza laboral serían menores está respaldada; que eso equivalga a ser «más pobres» por persona es más discutible. Qué nivel de migración es deseable es una cuestión de valores.",
+      "valoracion": "parcialmente_respaldada",
+      "argumentos_a_favor": [
+        "La aportación al crecimiento del PIB y del empleo es grande y la estiman fuentes oficiales independientes.",
+        "Sin población activa adicional, la relación entre cotizantes y pensionistas empeora más rápido."
+      ],
+      "argumentos_en_contra": [
+        "El efecto sobre el PIB por habitante es mucho menor que sobre el PIB total, y el propio Banco de España advierte de que la relación es más compleja que una descomposición mecánica.",
+        "La inmigración solo retrasa el problema de las pensiones. Otras palancas (productividad, natalidad, edad de jubilación) y los costes de integración y vivienda también cuentan."
+      ],
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Europa Press (Bolsamanía): Los inmigrantes aportaron 1,7 puntos al alza del PIB entre 2022 y 2025 y 0,5 al PIB per cápita",
+          "url": "https://www.bolsamania.com/noticias/economia/economia--los-inmigrantes-aportaron-17-puntos-al-alza-del-pib-espanol-entre-2022-y-2025-y-05-puntos-al-pib-per-capita--22906098.html",
+          "fecha": "2026",
+          "tipo": "oficial"
+        },
+        {
+          "titulo": "Conde-Ruiz et al.: inmigración y sostenibilidad del sistema de pensiones",
+          "url": "https://core.ac.uk/download/132459168.pdf",
+          "fecha": "2009",
+          "tipo": "academica"
+        },
+        {
+          "titulo": "elDiario.es: estudios de la Comisión Europea, AIReF y Banco de España sobre necesidades de trabajadores migrantes",
+          "url": "https://www.eldiario.es/1_b9b91b",
+          "fecha": "2025",
+          "tipo": "prensa"
+        }
+      ]
+    },
+    {
+      "id": "T5",
+      "pregunta_id": "P29",
+      "tiempo": "01:44:57",
+      "cita": "mucho mejor que si en lugar de haber hecho los indultos y haber hecho la amnistía",
+      "tesis": "Los indultos y la amnistía han mejorado la situación política en Cataluña.",
+      "tipo": "mixta",
+      "componente_empirico": "Evolución del apoyo a la independencia (CEO) y de la percepción de convivencia (CIS) antes y después de 2021 y 2024.",
+      "evidencia": "El apoyo a la independencia pasó del 48,7% (octubre de 2017) a cifras del 38–40% en 2024–2025, según el CEO. Pero el «no» supera al «sí» desde julio de 2019, antes de los indultos (2021) y de la amnistía (2024), y el propio Govern atribuyó la caída de 2022 a otros factores. Según el CIS de 2024, el 37,6% de los catalanes cree que indultos y amnistía mejoraron la convivencia y el 23,8% que la empeoraron. La desactivación del conflicto está documentada; que se deba a estas medidas no se puede atribuir causalmente con estos datos. Si las medidas eran justas es una cuestión de valores.",
+      "valoracion": "parcialmente_respaldada",
+      "argumentos_a_favor": [
+        "La tensión política y el apoyo al independentismo han bajado, y hay más catalanes que perciben mejora en la convivencia que empeoramiento.",
+        "La normalización institucional (PSC gobernando la Generalitat, diálogo entre partidos) coincide en el tiempo con estas medidas."
+      ],
+      "argumentos_en_contra": [
+        "El descenso empezó antes de los indultos, así que puede deberse al fracaso de 2017, al desgaste o a cambios generacionales.",
+        "En el CIS, la respuesta mayoritaria no es la mejora, y la amnistía fue rechazada por gran parte de la sociedad española. El argumento de la igualdad ante la ley no depende de los resultados."
+      ],
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Catalan News: el apoyo a la independencia cae al 38% (barómetro CEO, marzo de 2025)",
+          "url": "https://www.catalannews.com/politics/item/independence-support-falls-against-27-march-2025-ceo-barometer",
+          "fecha": "2025-03-27",
+          "tipo": "oficial"
+        },
+        {
+          "titulo": "Maldita.es: datos del apoyo al independentismo en Cataluña",
+          "url": "https://maldita.es/malditodato/20240510/datos-apoyo-independentismo-cataluna-baja-elecciones-catalanas/",
+          "fecha": "2024-05-10",
+          "tipo": "verificador"
+        },
+        {
+          "titulo": "El Debate: el CIS refleja que la mayoría de catalanes no cree que amnistía e indultos mejoren la convivencia",
+          "url": "https://www.eldebate.com/espana/cataluna/20240426/cis-refleja-mayoria-catalanes-no-creen-amnistia-indultos-mejoren-convivencia_192499.html",
+          "fecha": "2024-04-26",
+          "tipo": "prensa"
+        }
+      ]
+    },
+    {
+      "id": "T6",
+      "pregunta_id": "P5",
+      "tiempo": "00:17:16",
+      "cita": "el sistema ferroviario en nuestro país, pese a las dificultades, es un sistema seguro",
+      "tesis": "El ferrocarril español sigue siendo un sistema seguro pese a los dos accidentes de 2026.",
+      "tipo": "empirica_disputada",
+      "componente_empirico": "Tasas de accidentes y víctimas por kilómetro frente a la media europea, y en qué periodo se miden.",
+      "evidencia": "El tren es uno de los medios más seguros en la UE (0,09 muertes por mil millones de km). Según la Agencia Estatal de Seguridad Ferroviaria, España tuvo en 2023–2024 una tasa de accidentes graves de 0,09 por millón de km, por debajo de la de grandes países de la UE. Pero desde 1970 tres de los seis accidentes más graves de Europa ocurrieron en España, y 2026 suma dos siniestros con 46 y 69 muertos. Además, el gasto en mantenimiento por kilómetro en 2022 fue la mitad de la media europea, según datos de la Comisión Europea. Los datos anteriores a 2026 respaldan la tesis; los de 2026 y la tendencia de inversión en mantenimiento la cuestionan.",
+      "valoracion": "evidencia_dividida",
+      "argumentos_a_favor": [
+        "Por kilómetro recorrido, el tren sigue siendo mucho más seguro que la carretera, y las tasas españolas recientes de accidentes graves eran bajas.",
+        "Dos accidentes, aunque graves, son eventos poco frecuentes que no bastan por sí solos para concluir que el sistema es inseguro."
+      ],
+      "argumentos_en_contra": [
+        "Los dos accidentes se produjeron en la misma línea en menos de un año, lo que apunta a problemas sistémicos y no a casos aislados.",
+        "El gasto en mantenimiento por kilómetro es muy inferior a la media europea, y los avisos sindicales sobre mantenimiento eran previos."
+      ],
+      "confianza": "media",
+      "fuentes": [
+        {
+          "titulo": "Euronews: seguridad ferroviaria en España (datos de la AESF)",
+          "url": "https://es.euronews.com/2026/01/22/seguridad-ferroviaria-en-espana-por-que-no-hay-cinturones-en-los-trenes",
+          "fecha": "2026-01-22",
+          "tipo": "prensa"
+        },
+        {
+          "titulo": "El Orden Mundial: el mapa de los accidentes de tren en Europa",
+          "url": "https://elordenmundial.com/mapas-y-graficos/accidentes-tren-europa/",
+          "fecha": "2026",
+          "tipo": "prensa"
+        },
+        {
+          "titulo": "Ara: España dedica la mitad que Francia y Alemania al mantenimiento de la alta velocidad",
+          "url": "https://es.ara.cat/sociedad/espana-dedica-mitad-presupuesto-francia-alemania-mantenimiento-alta-velocidad_1_5894680.html",
+          "fecha": "2026",
+          "tipo": "prensa"
+        }
+      ]
+    }
+  ],
+  "resumen": {
+    "por_categoria": {
+      "falsedad": 5,
+      "error_factual": 1,
+      "incoherencia": 3,
+      "evasiva": 3,
+      "desvio": 6
+    },
+    "indice_respuestas_claras": 0.7,
+    "contrastes": {
+      "respaldada": 0,
+      "parcialmente_respaldada": 4,
+      "contradicha": 0,
+      "evidencia_dividida": 2,
+      "no_aplica": 0
+    },
+    "valoracion_general": "Sánchez contesta de forma directa a la mayoría de preguntas: 15 de 30 completas y 12 parciales. Reconoce errores en Ceuta y en el ferrocarril. Los problemas más relevantes están en la hemeroteca (niega frases de 2019 que constan), en cifras de vivienda protegida y regularización que no se corresponden con los datos oficiales, y en negar avisos de inteligencia sobre Ceuta. Deja sin responder si habría cesado a Óscar Puente y cuántas viviendas prometidas están habitadas. Es frecuente que conteste ampliando el foco o comparando con rivales."
+  },
+  "limitaciones": [
+    "Transcripción a partir de subtítulos automáticos de YouTube, sin separación de hablantes; los turnos se atribuyen por contexto y algunos fragmentos (nombres, cifras) aparecen deformados.",
+    "Varios hechos son de 2026 (crisis de Ceuta, accidente de Urda, regularización) y sus cifras siguen en revisión o difieren entre fuentes.",
+    "Las afirmaciones no verificables (inversión ferroviaria ×20, 19.000 M€, recortes policiales, 40% de inmigrantes europeos) no se cuentan como hallazgos.",
+    "Solo se analiza al entrevistado; las afirmaciones del entrevistador se verifican como contexto.",
+    "Parte de las fuentes son medios de prensa con distinta línea editorial; se han preferido fuentes oficiales cuando existían."
+  ]
+}
