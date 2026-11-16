@@ -23,6 +23,21 @@ Para cada elemento de `afirmaciones[]`:
    - `no_verificable`: no hay datos públicos fiables, o es una previsión u opinión.
 5. **Registra** `explicacion` (1–3 frases con el dato real y la diferencia) y `fuentes` (título, URL y fecha). Nunca inventes una URL: cita solo páginas que hayas abierto o que hayan salido en los resultados de búsqueda.
 
+## Contrastar tesis
+
+Para cada tesis con componente empírico (ver `../analizar-entrevista/criterios.md`):
+
+1. **Reformula la tesis como pregunta investigable**, neutral y sin presuponer la respuesta.
+   Ejemplo: «la polarización es asimétrica» se convierte en «¿qué dice la investigación sobre qué actores generan más polarización afectiva o descalificaciones en España?».
+2. **Busca en este orden:**
+   1. Literatura académica: revisiones y artículos revisados por pares (REIS, *Revista Española de Ciencia Política*, *South European Society and Politics*…), con búsquedas tipo `site:scholar.google.com`, `site:dialnet.unirioja.es` o el nombre del indicador más «estudio».
+   2. Datos oficiales y comparativos: CIS, INE, Eurostat, V-Dem, OCDE, Banco de España.
+   3. Think tanks y centros de estudios de **orientaciones distintas**, y verificadores.
+3. **Busca expresamente evidencia en contra** de la tesis, con al menos una búsqueda formulada en sentido opuesto.
+4. Resume la evidencia con sus límites (periodo, método, alcance) y asigna `valoracion` y `confianza` según `criterios.md`.
+5. Escribe `argumentos_a_favor` y `argumentos_en_contra` en su versión más sólida, cada uno con su base si la tiene.
+6. Marca el `tipo` de cada fuente (`academica | oficial | think_tank | verificador | prensa`).
+
 ## Límites
 - Si hay muchas afirmaciones, prioriza las centrales de la entrevista y las de severidad potencial alta. Marca las demás como `no_verificable` con la explicación "no verificada por alcance".
 - Si dos fuentes fiables discrepan, recoge ambas y baja la confianza en lugar de elegir una.

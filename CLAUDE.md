@@ -20,7 +20,7 @@ scripts.
 Cada análisis crea `entrevistas/<AAAA-MM-DD>-<slug>/` con:
 - `metadatos.json`: título, medio, fecha, político, entrevistador y fuente.
 - `transcripcion.md`: transcripción limpia con hablantes y marcas de tiempo `[hh:mm:ss]`.
-- `hallazgos.json`: resultado estructurado del análisis; es la fuente de verdad del informe.
+- `hallazgos.json`: resultado estructurado del análisis; es la fuente de verdad del informe. Contiene `preguntas`, `afirmaciones`, `hallazgos`, `contrastes` (tesis contrastadas con evidencia), `resumen` y `limitaciones`.
 - `informe.html`: informe autocontenido.
 
 ## Flujo (skills en `.claude/skills/`)
@@ -42,6 +42,7 @@ Cada análisis crea `entrevistas/<AAAA-MM-DD>-<slug>/` con:
 
 - **Falso ≠ mentira.** Se usa "afirmación falsa". "Mentira" solo vale si hay pruebas documentadas de que el político sabía que era falso.
 - **Opiniones ≠ hechos.** Solo se verifican afirmaciones comprobables. Los juicios de valor no son falsos ni verdaderos.
+- **Tesis ≠ dato ≠ valor.** Las tesis de fondo («la polarización es asimétrica») se contrastan con evidencia en `contrastes[]`: solo su parte empírica recibe valoración, con al menos dos fuentes independientes. Los juicios de valor no se juzgan; se exponen los mejores argumentos de cada lado. El listón es el mismo aunque la tesis coincida con la opinión del usuario.
 - **Todo hallazgo lleva cita literal y marca de tiempo**, y todo veredicto factual lleva URL de una fuente fiable.
 - **Neutralidad:** el mismo umbral para cualquier partido o ideología. Sin adjetivos valorativos sobre la persona.
 - **Contexto temporal:** los datos se verifican en la fecha de la entrevista, no en la actual.

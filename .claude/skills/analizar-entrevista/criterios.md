@@ -54,6 +54,31 @@ El subtipo concreto se indica en `subtipo`.
 ## Índice de respuestas claras
 `completas / total de preguntas` (las parciales cuentan 0,5). Solo cuentan preguntas genuinas, no saludos ni réplicas breves.
 
+## Contraste de tesis
+
+Una **tesis** es una idea de fondo que el entrevistado defiende en su respuesta («la polarización es asimétrica»,
+«la regulación contiene los alquileres»). No es un dato puntual, que va a `afirmaciones[]`, ni una promesa.
+El contraste compara la tesis con la mejor evidencia disponible. **No es un hallazgo**: es contexto para el lector.
+
+### Tipos
+- `empirica`: se puede medir y la evidencia es razonablemente concluyente.
+- `empirica_disputada`: se puede medir, pero la literatura está dividida o es escasa.
+- `valorativa`: es un juicio de valor o de prioridad («hay que…», «es injusto…»). **Nunca recibe valoración** (`no_aplica`).
+- `mixta`: combina las dos cosas. En `componente_empirico` se separa la parte medible, que es la única que se valora.
+
+### Valoración (solo de la parte empírica)
+`respaldada | parcialmente_respaldada | contradicha | evidencia_dividida | no_aplica`.
+- Hacen falta **al menos dos fuentes independientes** para `respaldada` o `contradicha`.
+- Si la evidencia es escasa, antigua o de una sola orientación, la valoración es `evidencia_dividida` o la confianza es baja.
+
+### Reglas
+1. **Steelman:** `argumentos_a_favor` y `argumentos_en_contra` se formulan en su versión más sólida, con un desarrollo comparable. No se caricaturiza ningún lado.
+2. **Jerarquía de evidencia:** metaanálisis o revisiones > estudios académicos revisados por pares > datos oficiales (CIS, INE, Eurostat, V-Dem, Banco de España…) > think tanks de orientaciones distintas > verificadores > prensa.
+3. **Mismo listón:** la exigencia de prueba es la misma aunque la tesis coincida o choque con la opinión del usuario, del entrevistador o de la propia IA. Hay que buscar expresamente evidencia en contra.
+4. **Sin opinión propia sobre valores:** la IA no dice si está «de acuerdo» con un juicio de valor. Describe qué parte se puede comprobar y qué argumentos hay.
+5. **Paso a hallazgo:** solo una tesis `contradicha` con confianza `alta` puede generar además un hallazgo `falsedad` (veredicto `enganoso`).
+6. **Alcance:** de 5 a 8 tesis por entrevista, las más centrales.
+
 ## Esquema de `hallazgos.json`
 
 ```json
@@ -66,7 +91,8 @@ El subtipo concreto se indica en `subtipo`.
       "comentario": "por qué" }
   ],
   "afirmaciones": [
-    { "id": "A1", "tiempo": "00:03:40", "cita": "literal", "afirmacion": "lo que se afirma, normalizado",
+    { "id": "A1", "pregunta_id": "P1 (pregunta en cuya respuesta se hace; vacío si no la hay)",
+      "tiempo": "00:03:40", "cita": "literal", "afirmacion": "lo que se afirma, normalizado",
       "veredicto": "verdadero | mayormente_verdadero | enganoso | falso | no_verificable",
       "explicacion": "", "fuentes": [ { "titulo": "", "url": "", "fecha": "AAAA-MM-DD" } ] }
   ],
@@ -78,9 +104,24 @@ El subtipo concreto se indica en `subtipo`.
       "explicacion": "neutral y concreta", "severidad": "alta | media | baja", "confianza": "alta | media | baja",
       "fuentes": [ { "titulo": "", "url": "", "fecha": "" } ] }
   ],
+  "contrastes": [
+    { "id": "T1", "pregunta_id": "P3", "tiempo": "00:10:43", "cita": "literal",
+      "tesis": "la idea defendida, normalizada",
+      "tipo": "empirica | empirica_disputada | valorativa | mixta",
+      "componente_empirico": "qué parte se puede medir y con qué indicador (vacío si es valorativa)",
+      "evidencia": "qué dicen los datos y estudios, con sus límites",
+      "valoracion": "respaldada | parcialmente_respaldada | contradicha | evidencia_dividida | no_aplica",
+      "argumentos_a_favor": [ "" ], "argumentos_en_contra": [ "" ],
+      "confianza": "alta | media | baja",
+      "fuentes": [ { "titulo": "", "url": "", "fecha": "", "tipo": "academica | oficial | think_tank | verificador | prensa" } ] }
+  ],
   "resumen": { "por_categoria": { "falsedad": 0, "error_factual": 0, "incoherencia": 0, "evasiva": 0, "desvio": 0 },
-               "indice_respuestas_claras": 0.0, "valoracion_general": "2–4 frases neutrales" },
+               "indice_respuestas_claras": 0.0,
+               "contrastes": { "respaldada": 0, "parcialmente_respaldada": 0, "contradicha": 0, "evidencia_dividida": 0, "no_aplica": 0 },
+               "valoracion_general": "2–4 frases neutrales" },
   "limitaciones": [ "" ]
 }
 ```
+`afirmaciones[].pregunta_id` es la última pregunta cuyo `tiempo` es menor o igual que el de la afirmación, salvo que el contexto indique claramente que responde a otra.
+
 `fuentes` es obligatorio (al menos una) en `falsedad`, `error_factual`, en las `incoherencia` externas y en toda afirmación con veredicto distinto de `no_verificable`.

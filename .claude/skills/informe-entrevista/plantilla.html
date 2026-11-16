@@ -64,8 +64,22 @@ th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var
 th{color:var(--muted);font-weight:600}
 .v{white-space:nowrap;font-weight:600}
 .v-falso{color:var(--falsedad)}.v-enganoso{color:var(--error)}.v-verdadero,.v-mayormente_verdadero{color:var(--desvio)}.v-no_verificable{color:var(--muted)}
+tr:target td{background:var(--surface)}
 .r-completa{color:var(--desvio)}.r-parcial{color:var(--error)}.r-ninguna{color:var(--falsedad)}
 footer,.metodologia{color:var(--muted);font-size:.88rem}
+.tesis{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.tesis h3{font-size:1rem;margin:0 0 6px;line-height:1.4}
+.tesis blockquote{margin:6px 0 10px;padding-left:10px;border-left:2px solid var(--line);font-style:italic;color:var(--muted)}
+.tesis p{margin:6px 0}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin:0 0 8px;font-size:.78rem}
+.badge{border:1px solid var(--line);border-radius:999px;padding:1px 9px;color:var(--muted);white-space:nowrap}
+.val{font-weight:600;color:var(--ink);border-width:2px}
+.val-respaldada{border-color:#2f7d73}.val-parcialmente_respaldada{border-color:#7a8a3a}
+.val-contradicha{border-color:#8a4f7d}.val-evidencia_dividida{border-color:#8a7a5a}.val-no_aplica{border-style:dashed}
+.args{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:8px}
+.args h4{margin:0 0 4px;font-size:.85rem;color:var(--muted);font-weight:600}
+.args ul{margin:0;padding-left:18px;font-size:.92rem}
+@media (max-width:640px){.args{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -92,15 +106,33 @@ footer,.metodologia{color:var(--muted);font-size:.88rem}
 
   <h2>Preguntas y respuestas</h2>
   <div class="tabla"><table>
-    <thead><tr><th>Tiempo</th><th>Pregunta</th><th>Respuesta</th><th>Comentario</th></tr></thead>
-    <!-- Respuesta con <span class="r-completa|r-parcial|r-ninguna">Completa|Parcial|Sin respuesta</span> -->
+    <thead><tr><th>Tiempo</th><th>Pregunta</th><th>Respuesta</th><th>Comentario</th><th>Verificación</th><th>Contraste</th></tr></thead>
+    <!-- Respuesta con <span class="r-completa|r-parcial|r-ninguna">Completa|Parcial|Sin respuesta</span>.
+         Columna Verificación: solo las afirmaciones de esa pregunta (pregunta_id) con veredicto falso o enganoso, separadas por <br>:
+         <a href="#A3"><span class="v v-falso">A3 · Falso</span></a> / <a href="#A5"><span class="v v-enganoso">A5 · Engañoso</span></a>. Si no hay ninguna, vacía.
+         Columna Contraste: <a href="#T1">T1 · valoración</a> si la pregunta tiene contraste_id; si no, vacía. -->
     <tbody>{{PREGUNTAS}}</tbody>
   </table></div>
+
+  <h2>Contraste de tesis</h2>
+  <p class="meta">Compara las ideas de fondo del entrevistado con la evidencia disponible. Solo se valora la parte comprobable; en los juicios de valor se exponen los mejores argumentos de cada lado, sin veredicto.</p>
+  <!-- Resumen: <p class="meta">Tesis con parte empírica: N respaldadas · N parcialmente · N contradichas · N con evidencia dividida · N valorativas</p>
+       Una tarjeta por contraste:
+  <article class="tesis" id="T1">
+    <div class="badges"><span class="badge">P3 · <a href="#...">[00:10:43]</a></span><span class="badge">Mixta</span>
+      <span class="badge val val-parcialmente_respaldada">Parcialmente respaldada</span><span class="badge">Confianza media</span></div>
+    <h3>tesis normalizada</h3><blockquote>cita literal</blockquote>
+    <p><b>Qué se puede comprobar:</b> componente_empirico</p><p><b>Qué dice la evidencia:</b> evidencia</p>
+    <div class="args"><div><h4>Argumentos a favor de la tesis</h4><ul><li>…</li></ul></div>
+      <div><h4>Argumentos en contra</h4><ul><li>…</li></ul></div></div>
+    <p class="fuentes meta">Fuentes: <a href="URL">título (tipo, fecha)</a></p>
+  </article> -->
+  {{CONTRASTES}}
 
   <h2>Verificación de afirmaciones</h2>
   <div class="tabla"><table>
     <thead><tr><th>Tiempo</th><th>Afirmación</th><th>Veredicto</th><th>Explicación y fuentes</th></tr></thead>
-    <!-- Veredicto con <span class="v v-VEREDICTO">Falso|Engañoso|Verdadero|Mayormente verdadero|No verificable</span> -->
+    <!-- Cada fila lleva id: <tr id="A1">. Veredicto con <span class="v v-VEREDICTO">Falso|Engañoso|Verdadero|Mayormente verdadero|No verificable</span> -->
     <tbody>{{AFIRMACIONES}}</tbody>
   </table></div>
 
@@ -116,6 +148,7 @@ footer,.metodologia{color:var(--muted);font-size:.88rem}
   <h2>Metodología y limitaciones</h2>
   <div class="metodologia">
     <p>Análisis asistido por IA (Claude) sobre la transcripción. Las afirmaciones se contrastan con fuentes públicas disponibles en la fecha de la entrevista. «Falso» describe la afirmación, no la intención: solo se habla de mentira cuando consta documentalmente que se conocía la falsedad. Las opiniones no se verifican. Es un análisis orientativo y conviene revisar las fuentes enlazadas.</p>
+    <p>En el contraste de tesis, la IA no opina sobre juicios de valor: solo contrasta su parte empírica, con al menos dos fuentes independientes para valorarla, y busca expresamente evidencia en ambos sentidos.</p>
     <!-- <ul> con las limitaciones de hallazgos.json -->
     {{LIMITACIONES}}
   </div>

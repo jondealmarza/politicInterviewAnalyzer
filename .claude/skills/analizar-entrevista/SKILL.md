@@ -37,6 +37,15 @@ Cada hallazgo exige cita literal copiada tal cual de la transcripción y su marc
 Sigue la skill **verificar-afirmaciones** sobre `afirmaciones[]`. Las que salgan `falso` o `enganoso` pasan a ser
 hallazgos de categoría `falsedad` o `error_factual`, según `criterios.md`.
 
+## 3b. Pasada C: contraste de tesis
+
+Con la sección «Contraste de tesis» de `criterios.md` delante:
+1. De las respuestas `completa` y `parcial`, extrae las tesis de fondo que defiende el entrevistado. Pueden ser causales («X provoca Y»), comparativas («estamos mejor que…»), de eficacia («la medida funciona») o de reparto de responsabilidad («la crispación la generan otros»).
+2. Elige las 5–8 más centrales y clasifica cada una (`empirica | empirica_disputada | valorativa | mixta`).
+3. Para las que tengan parte empírica, sigue la sección **«Contrastar tesis»** de la skill **verificar-afirmaciones**.
+4. Para las valorativas, no investigues un veredicto: recoge los mejores argumentos de cada lado.
+5. Rellena `contrastes[]` y `resumen.contrastes`, y añade a `preguntas[]` el campo `"contraste_id": "T<n>"` cuando corresponda.
+
 ## 4. Guardar y revisar
 
 Escribe `hallazgos.json` con el esquema de `criterios.md`, **siempre con la herramienta Write** (no con Bash), porque al escribirlo así salta un hook de revisión de calidad.
